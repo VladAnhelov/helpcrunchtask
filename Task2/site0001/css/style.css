@@ -1,0 +1,104 @@
+* {
+	font-size:1.1em;
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color:yellow;
+	background: url('http://saga-tech.ru/images/fon/backgroun22d3.jpg') 
+	no-repeat center top;
+
+	}
+
+#colorname {color:green}
+h1#example:first-letter {color: red}
+.href {
+	color:gray;
+	text-decoration: underline;
+}
+
+.href:active {
+	color:pink;
+	}
+	#textstyles:hover {
+		background-color:green;
+	}
+	#textstyles {
+		font-weight:normal;
+		font-family:Comic Sans MS;
+		text-align: center;
+		word-spacing: 10px;
+		letter-spacing: 3px;
+	}
+#testblock {
+	border: 2px double green;
+	height: 300px;
+	width:300px;
+	background-color:yellow;
+	background: url('https://kupiproday.com.ua/sites/default/files/styles/300_300/public/pictures/picture-1193-1493553798.jpg?itok=GuSb4vkU')
+	no-repeat center top;
+	margin:50px;
+}
+
+header {
+	width:calc(100% - 20px);
+	height:50px;
+	background-color: #fff;
+	border-bottom:2px solid silver;
+	border-top: 2px solid silver;
+	padding:10px;
+	font-size: 1.2em;
+	color:#333;
+	font-family: Comic Sans MS;
+	float: left;
+	
+}
+
+article, aside {
+	background-color:#fafafa;
+	min-height: 400px;
+	border-radius:5px;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	margin-top:20px;
+	float: left;
+	overflow: auto;
+}
+article {
+	width:60%;
+	margin-left:5%;
+	margin-right:5%;
+	padding:10px;
+	
+}
+
+
+aside {
+	width:25%;
+	padding:10px;
+}
+aside ul {
+	width:80%;
+	list-style-position: inside;
+	
+}
+footer {
+	width:calc(100% - 20px);
+	height:50px;
+	margin-top:20px;
+	background-color: #fff;
+	border-top: 2px solid silver;
+	padding:10px;
+	font-size: 1.2em;
+	color:#333;
+	font-family: Comic Sans MS;
+	float: left;
+}
+.spanblock {
+	display:block;
+	height:75px;
+	width:100px;
+	border:1px solid red;
+	overflow: auto;
+	
+}
